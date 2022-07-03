@@ -1,0 +1,12 @@
+{
+  "name": "treasure-schema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "echo nothing to do."
+  },
+  "dependencies": {
+    "@prisma/client": "^4.0.0"
+  }
+}

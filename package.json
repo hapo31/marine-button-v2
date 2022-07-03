@@ -1,0 +1,26 @@
+{
+  "name": "marine-button-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server:dev": "yarn workspace marine-server start:dev",
+    "front:dev": "yarn workspace pirate-frontend dev",
+    "format": "yarn workspaces run format"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "prisma": "^4.0.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
